@@ -25,15 +25,16 @@ import org.failearly.ajunit.AjUnitSetup;
 /**
  * ajUnit - Step 3 (Extend your aspect from one of the provided ajUnit (classic or annotation) aspects).
  *
+ * So these are the next steps:
+ *
+ * 1. Extend your aspect.
+ * 2. "implement" the pointcut pointcutUnderTest() in your aspect (in this case: com.company.project.aspects.MyAspect)
+ *
  * Currently there are 2 aspects of each kind (classic or annotation).
  *
  * - with an already defined before advice (recommended): AjUnitBeforeAnnotationAspect or AjUnitBeforeClassicAspect
  * - without any advice (you must create an appropriate advice by yourself) : AjUnitAnnotationAspect or AjUnitClassicAspect.
  *
- * So these are the next steps:
- *
- * 1. Extend your aspect.
- * 2. "implement" the pointcut pointcutUnderTest() in your aspect (in this case: com.company.project.aspects.MyAspect)
  *
  * Fourth error message:
  *
