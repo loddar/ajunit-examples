@@ -1,46 +1,34 @@
 # Description
 
-This example demonstrates the project and ajUnit test setup and some usage method execution/call examples of the using [ajUnit](https://github.com/loddar/ajunit).
+This example demonstrates usage of [ajUnit](https://github.com/loddar/ajunit). 
 
-# Content
+Unit tests of method execution/call pointcuts.
 
-## Finished ajUnit Tests
+# ajUnit Tests
 
-### _InvalidGetterClassicAspectTest_ 
+### _InvalidGetterAnnotationAspectTest_ (finished)
 
-Selects invalid getters based on classic AspectJ notation
+Selects invalid getter executions based on annotation AspectJ notation: _@Aspect class MyAspect {}_.
 
+An invalid getter is a method:
+
+- name starting with get
 - returning void
 - returning an array
-- returning a collection
+- returning a collection or map
 - having declared exception
 - having parameters
 
 
     
-### _InvalidGetterAnnotationAspectTest_ 
+### _InvalidGetterClassicAspectTest_ 
 
-does the same but based on annotations and @After advice
+Selects invalid getter calls based on classic AspectJ notation: _aspect MyAspect {}_.
 
+An invalid getter is a method:
 
+- name starting with get
+- returning void
 
-
-
-## Tests demonstrating the ajUnit setup steps
-
- 
-### Step 0
-
-Create an JUnit4 test class by extending _org.failearly.ajunit.AjUnit4Test_ .
-
-Example Gist: [ajUnit - Step 0 (create an ajUnit test)](https://gist.github.com/loddar/4ae8e534d7647d765b96)
-
-
-### Step 1
-
-
-    
-    
- 
-
+(The rest has been skipped for training purposes.)
 

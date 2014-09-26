@@ -21,6 +21,7 @@ package com.company.project.aspects;
 
 import org.failearly.ajunit.AjUnit4Test;
 import org.failearly.ajunit.AjUnitSetup;
+import org.junit.Ignore;
 
 /**
  * ajUnit - Step 2 (Create an aspect and assign it).
@@ -44,6 +45,7 @@ import org.failearly.ajunit.AjUnitSetup;
  *     * AjUnitAnnotationAspect or AjUnitClassicAspect
  *     * AjUnitBeforeAnnotationAspect or AjUnitBeforeClassicAspect
  */
+@Ignore("Please remove me")
 public class MyAjUnit2Test extends AjUnit4Test {
 
     @Override

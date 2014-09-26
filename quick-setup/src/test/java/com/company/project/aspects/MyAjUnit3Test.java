@@ -21,6 +21,7 @@ package com.company.project.aspects;
 
 import org.failearly.ajunit.AjUnit4Test;
 import org.failearly.ajunit.AjUnitSetup;
+import org.junit.Ignore;
 
 /**
  * ajUnit - Step 3 (Extend your aspect from one of the provided ajUnit (classic or annotation) aspects).
@@ -41,6 +42,7 @@ import org.failearly.ajunit.AjUnitSetup;
  *      ajUnit - Setup Error: Missing test fixture class(es).
  *      - Apply addTestFixtureClass(<class> or <class name>) for every test fixture class.
  */
+@Ignore("Please remove me")
 public class MyAjUnit3Test extends AjUnit4Test {
 
     @Override

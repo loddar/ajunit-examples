@@ -1,12 +1,12 @@
 # Description
 
-This example demonstrates an [ajUnit](https://github.com/loddar/ajunit) test setup.
+This example project demonstrates an [ajUnit](https://github.com/loddar/ajunit) test setup.
 
 
 
 # Seven tiny steps to get started ...
 
-On each step, ajUnit throws a setup error, which also tells you, what to do. After you've finished these seven tiny steps, the actually development
+On each step, ajUnit throws a setup error, which tells you, what to do. After you've finished these seven tiny steps, the actually development
 of your pointcut could start.
 
 ## Step 0

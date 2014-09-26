@@ -19,6 +19,7 @@
 package com.company.project.aspects;
 
 import org.failearly.ajunit.AjUnit4Test;
+import org.junit.Ignore;
 
 /**
  * ajUnit - Step 0 (create an ajUnit test).
@@ -29,5 +30,6 @@ import org.failearly.ajunit.AjUnit4Test;
  *      - Please override setup(AjUnitSetup).
  *
  */
+@Ignore("Please remove me")
 public class MyAjUnit0Test extends AjUnit4Test {
 }

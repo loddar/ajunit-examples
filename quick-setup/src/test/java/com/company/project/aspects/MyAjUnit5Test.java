@@ -22,6 +22,7 @@ package com.company.project.aspects;
 import org.failearly.ajunit.AjUnit4Test;
 import org.failearly.ajunit.AjUnitSetup;
 import org.failearly.ajunit.builder.JoinPointSelector;
+import org.junit.Ignore;
 
 /**
  * ajUnit - Step 5 (Override method assertPointcut(JoinPointSelector) and "implement" it by calling JoinPointSelector.notYetSpecified()).
@@ -36,6 +37,7 @@ import org.failearly.ajunit.builder.JoinPointSelector;
  *       - Please override execute().
  *
  */
+@Ignore("Please remove me")
 public class MyAjUnit5Test extends AjUnit4Test {
 
     @Override

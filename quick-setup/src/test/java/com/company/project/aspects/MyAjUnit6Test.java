@@ -22,6 +22,7 @@ package com.company.project.aspects;
 import org.failearly.ajunit.AjUnit4Test;
 import org.failearly.ajunit.AjUnitSetup;
 import org.failearly.ajunit.builder.JoinPointSelector;
+import org.junit.Ignore;
 
 /**
  * ajUnit - Final Step 6 (Override method execute()).
@@ -44,6 +45,7 @@ import org.failearly.ajunit.builder.JoinPointSelector;
  *      at org.failearly.ajunit.AjUnit4Test.doFail(AjUnit4Test.java:42)
  *      (...)
  */
+@Ignore("Please remove me")
 public class MyAjUnit6Test extends AjUnit4Test {
 
     @Override

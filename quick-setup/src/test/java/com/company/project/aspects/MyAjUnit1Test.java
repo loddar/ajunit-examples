@@ -21,6 +21,7 @@ package com.company.project.aspects;
 
 import org.failearly.ajunit.AjUnit4Test;
 import org.failearly.ajunit.AjUnitSetup;
+import org.junit.Ignore;
 
 /**
  * ajUnit - Step 1 (Override {@link #setup(org.failearly.ajunit.AjUnitSetup)}).
@@ -34,6 +35,7 @@ import org.failearly.ajunit.AjUnitSetup;
  *      - Create an aspect and ...
  *      - assign it by calling AjUnitSetup.assignAspect("full.path.MyAspect") in setup(AjUnitSetup).
  */
+@Ignore("Please remove me")
 public class MyAjUnit1Test extends AjUnit4Test {
 
     @Override

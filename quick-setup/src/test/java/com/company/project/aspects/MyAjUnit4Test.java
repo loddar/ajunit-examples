@@ -21,6 +21,7 @@ package com.company.project.aspects;
 
 import org.failearly.ajunit.AjUnit4Test;
 import org.failearly.ajunit.AjUnitSetup;
+import org.junit.Ignore;
 
 /**
  * ajUnit - Step 4 (Create at least one test fixture class and add it/them).
@@ -33,6 +34,7 @@ import org.failearly.ajunit.AjUnitSetup;
  *      - Please override assertPointcut(JoinPointSelector)
  *
  */
+@Ignore("Please remove me")
 public class MyAjUnit4Test extends AjUnit4Test {
 
     @Override
