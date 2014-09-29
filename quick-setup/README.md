@@ -1,10 +1,13 @@
 # Description
 
-This example project demonstrates an [ajUnit](https://github.com/loddar/ajunit) test setup.
+This example project demonstrates an [ajUnit](https://github.com/loddar/ajunit) test setup. 
+
+
+The ajUnit test classes has been annotated with JUnit's @Ignore. So you must remove these to get the same error messages.
 
 
 
-# Seven tiny steps to get started ...
+# 7 tiny steps to get started ...
 
 On each step, ajUnit throws a setup error, which tells you, what to do. After you've finished these seven tiny steps, the actually development
 of your pointcut could start.
@@ -97,7 +100,7 @@ Example Gist: [ajUnit - Step 5 (Override method assertPointcut(JoinPointSelector
 
 Override method _execute()_.
 
-NOW you're done! No more "ajUnit - Setup Error: ..."! You can start developing your aspect - sorry I mean your pointcut :-)
+**NOW you're done! No more "ajUnit - Setup Error: ..."! You can start developing your aspect - Sorry, I mean your pointcut :-)**
 
 You got an test failure (not an ajUnit setup error):
 
@@ -115,31 +118,6 @@ You got an test failure (not an ajUnit setup error):
 
 
 Example Gist: [Override method execute())](https://gist.github.com/loddar/e4b760b92b4c353f516e)
-
-
-# Remarks
-
-
-## TDD with ajUnit
-
-After the setup, your actually work starts. I recommend following steps:
-
-1. Extend your test fixture class. 
-For example define a method which should be weaved by the aspect and one which should not. This could be done by using your IDE quickly, 
-if you call it in _execute()_ and leave the work to your IDE creating the method/constructor.
-   
-2. Call the new code within _execute()_.   
-
-3. Define the join point selector.
-
-4. Execute the test class. This should fail.
-
-5. Extend the pointcut.
-
-6. Execute the test class again. If the test gets green you're done. If the test fails, correct the pointcut until it gets green.
-
-
-If the your pointcut definition is not yet complete, start again with 1.
 
 
 ## Side effects 
