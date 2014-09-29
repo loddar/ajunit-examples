@@ -31,6 +31,7 @@
     <modules>
         <module>quick-setup</module>
         <module>method-examples</module>
+        <module>ajunit-project-frame</module>
     </modules>
 
 
